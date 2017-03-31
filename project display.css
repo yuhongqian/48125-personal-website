@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid #666;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+body {
+    width: 100%;
+    background: url("project photos/Motion Models/DSC05151 copy.jpg") no-repeat center top;
+    background-size: cover;
+    padding: 0 80px;  
+} 
+
+
+.header {
+    margin-top: 100px;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    color:white;
+    margin-top: 50px;
+    font-weight: 300; 
+}
+
+.image {
+    width: 100%;
+    margin-top: 100px; 
+}
+
+img {
+    width: 100%;
+}
+
+.pages {
+    margin-top: 10px;
+    float: right;
+    width: 200px;
+}
+
+.pages a { 
+    text-transform: uppercase;
+    float: right;
+    margin-left: 30px;
+}
+
+.footer2 {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 100px; 
+    width: 100%;
+    text-align: center;
+}
+
+.intro {
+    margin-top: 50px;
+    font-weight: 300;
+}
+
+.contact {
+    margin-top: 20px; 
+    padding: 100px;
+    border-top: 1px solid #666;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5em;    
+}
+
+.copyright {
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5em;    
+}
