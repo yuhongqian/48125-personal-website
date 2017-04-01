@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     /*border: 1px solid #FFF;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    
 }
 
 body {
@@ -23,8 +26,6 @@ body {
     width: 687px;
     height: 200px;
     margin: auto; 
-    font-family: 'Lato', sans-serif;
-    font-weight: thin;
     font-size: 30px;
     color: white;
     line-height: 5
@@ -42,8 +43,6 @@ body {
 
 ul {
     margin-top: 40px;
-    font-family: 'Lato', sans-serif;
-    font-weight: thin;
     list-style-type: none;
     text-transform: uppercase;
 }

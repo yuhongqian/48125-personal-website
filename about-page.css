@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid #666;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #999;
+}
+
+body {
+    padding: 0 30px;
+}
+
+h1 {
+    color: black;
+    margin-top: 150px;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6, .block7 {
+    position:absolute;
+    display:inline-block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block1 {
+    top: 200px;
+    left: 160px;
+}
+
+.block2 {
+    top: 320px;
+    left: 960px;
+   
+}
+
+.block3 {
+    top: 330px;
+    left: 200px;
+}
+
+.block4 {
+    top: 180px;
+    left: 850px;
+}
+
+.block5 {
+    top: 400px;
+    left: 700px;
+}
+
+.block6 {
+    top: 500px;
+    left: 520px;
+}
+
+.block7 {
+    top: 400px;
+    left: 260px;
+}
+
+.footer2 {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 350px; 
+    width: 100%;
+    text-align: center;
+}
+
+.intro {
+    margin-top: 50px;
+    font-weight: 300;
+}
+
+.contact {
+    margin-top: 20px; 
+    padding: 100px;
+    border-top: 1px solid #666;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5em;    
+}
+
+.copyright {
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5em;    
+}
