@@ -8,14 +8,40 @@
     color: white;
 }
 
-body {
+body.motion {
     width: 100%;
     background: url("project photos/Motion Models/DSC05151 copy.jpg") no-repeat center top;
     background-size: cover;
     padding: 0 80px;  
 } 
 
+body.cube {
+     width: 100%;
+    background: url("project photos/Cube House/Exterior Path copy.jpg") no-repeat center top;
+    background-size: cover;
+    padding: 0 80px;  
+}
 
+body.buildingStudy {
+     width: 100%;
+    background: url("project photos/N House/LargeBox Grayscale.jpg") no-repeat center top;
+    background-size: cover;
+    padding: 0 80px;  
+}
+
+body.hunt {
+     width: 100%;
+    background-color: black;
+    background-size: cover;
+    padding: 0 80px;  
+    text-align: center;
+}
+
+.progress {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 .header {
     margin-top: 100px;
     height: 100px;

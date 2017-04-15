@@ -2,23 +2,74 @@
 <html>
     <head>
         <title>Hongqian Yu</title>
-    <link href="style.css" type="text/css" rel=stylesheet />
+    <link href="homepage.css" type="text/css" rel=stylesheet />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+   <script type='text/javascript' src='script.js'></script>
+  
+
+        
     </head>
-<body>
+<body class='image1'>
     <div class="name-container">
       <div class="name">
         <h1>Hongqian<br />Yu</h1>
       </div>
     </div>
+     
     <div class="nav">
       <ul>
-        <li>Project</li>
+        <li class="portfolio">Portfolio</li>
+          <div class="portfolio-nav">
+              <li><a href=project.html>Architecture </a></li> 
+              <li><a href=Drawings.html>Drawings</a></li>
+               <li><a href=Photography.html>Photography</a></li>
+          </div>
         <li>About</li>
       </ul>
     </div>
-    <div class="circle">
-    </div>   
-</body>
+       <div class="circles">
+          <div class="circle" id="circle1">
+          </div>
+          <div class="circle" id="circle2">
+          </div>
+          <div class="circle" id="circle3"> 
+          </div>
+        </div>
     
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  
+ <script>
+    $(document).ready(main)
+     
+    function main() {
+        
+    /*Portfolio Content*/
+    $('.portfolio').click(function() {
+        $('.portfolio-nav').slideToggle('fast');});
+        
+    /*Slide Bottons*/    
+    $('.circle').hover(function() {
+       $(this).addClass('circle-active');
+    }, 
+        function() {
+        $(this).removeClass('circle-active');
+    });    
+        
+    /*Slides*/
+    $('#circle1').click(function() {
+$('body').removeClass('image3').removeClass('image2').addClass('image1');});
+        
+    $('#circle2').click(function() {
+$('body').removeClass('image1').removeClass('image3').addClass('image2');});
+        
+    $('#circle3').click(function() {
+$('body').removeClass('image1').removeClass('image2').addClass('image3');});
+        
+    
+    }
+                         
+
+        
+ </script>
+</body>
 </html>
